@@ -23,6 +23,7 @@
     "validators": "^0.3.1"
   },
   "devDependencies": {
+    "heroku": "^8.11.5",
     "nodemon": "^3.1.4"
   }
 }

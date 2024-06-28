@@ -42,7 +42,6 @@ exports.getContacts = async (req, res) => {
         })
       }
     const contacts = await db.Contact.findAll({ where: { userId: req.params.userId } });
-    console.log({contacts})
     if(contacts.length==0)
       {
         res.status(301).json({
